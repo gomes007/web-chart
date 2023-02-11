@@ -1,4 +1,5 @@
 import Sales from "../../components/Sales";
+import SalesChart from "../../components/SalesChart";
 
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <>
       <div>
         <Sales/>
+        <SalesChart/>
       </div>
     </>
   )
